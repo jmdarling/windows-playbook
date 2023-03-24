@@ -58,12 +58,6 @@ choco_installed_packages:
   - vscode
   - zoom
 
-winget_packages:
-  # - name: "Auto Dark Mode"
-  #   source: winget
-  - name: WinDynamicDesktop
-    source: winget
-
 install_ohmyposh: true
 
 # List of features: "Get-WindowsOptionalFeature -Online"
