@@ -80,16 +80,17 @@ remove_bloatware: true
 bloatware:
   - Microsoft.BingNews
   - Microsoft.BingWeather
+  - Clipchamp.Clipchamp
   - Microsoft.GamingApp
   - Microsoft.GetHelp
   - Microsoft.Getstarted
-  # - Microsoft.Messaging
+  - Microsoft.Messaging
   - Microsoft.Microsoft3DViewer
   - Microsoft.MicrosoftOfficeHub
   - Microsoft.MicrosoftSolitaireCollection
   - Microsoft.MicrosoftStickyNotes
   - Microsoft.MixedReality.Portal
-  # - Microsoft.MSPaint
+  - Microsoft.MSPaint
   - Microsoft.Office.OneNote
   - Microsoft.OneConnect
   - Microsoft.People
@@ -100,10 +101,10 @@ bloatware:
   - Microsoft.Todos
   - Microsoft.Windows.Photos
   - Microsoft.WindowsAlarms
-  # - Microsoft.WindowsCalculator
+  - Microsoft.WindowsCalculator
   - Microsoft.Wallet
   - Microsoft.WindowsCamera
-  # - microsoft.windowscommunicationsapps
+  - microsoft.windowscommunicationsapps
   - Microsoft.WindowsFeedbackHub
   - Microsoft.WindowsMaps
   - Microsoft.WindowsSoundRecorder
@@ -112,7 +113,7 @@ bloatware:
   - Microsoft.XboxApp
   - Microsoft.XboxGameOverlay
   - Microsoft.XboxSpeechToTextOverlay
-  # - Microsoft.YourPhone
+  - Microsoft.YourPhone
   - Microsoft.ZuneMusic
   - Microsoft.ZuneVideo
   - MicrosoftTeams
