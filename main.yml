@@ -77,7 +77,3 @@
     - import_tasks: tasks/desktop.yml
       when: remove_desktop_icons
       tags: ["desktop"]
-
-    - import_tasks: tasks/defrag.yml
-      when: defrag_volumes
-      tags: ["defrag"]
