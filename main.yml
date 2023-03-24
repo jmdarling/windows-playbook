@@ -38,10 +38,6 @@
       when: install_wsl2
       tags: ["wsl"]
 
-    - import_tasks: tasks/fonts.yml
-      when: install_fonts
-      tags: ["fonts"]
-
     - import_tasks: tasks/ohmyposh.yml
       when: install_ohmyposh
       tags: ["ohmyposh"]

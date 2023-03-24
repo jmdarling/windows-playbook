@@ -64,11 +64,6 @@ winget_packages:
   - name: WinDynamicDesktop
     source: winget
 
-install_fonts: true
-installed_nerdfonts:
-  - FiraCode
-  - FantasqueSansMono
-
 install_ohmyposh: true
 
 # List of features: "Get-WindowsOptionalFeature -Online"
