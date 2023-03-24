@@ -47,10 +47,6 @@
       when: configure_start_menu
       tags: ["start_menu"]
 
-    - import_tasks: tasks/sounds.yml
-      when: set_sound_scheme
-      tags: ["sounds"]
-
     - import_tasks: tasks/mouse.yml
       when: disable_mouse_acceleration
       tags: ["mouse"]

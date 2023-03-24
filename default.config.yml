@@ -7,7 +7,6 @@ configure_taskbar: true
 disable_mouse_acceleration: true
 remote_desktop_enabled: true
 remove_desktop_icons: false
-set_sound_scheme: true
 
 install_windows_updates: true
 windows_updates_reboot: true
