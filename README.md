@@ -7,7 +7,7 @@
 ![badge-windows-11]
 ![badge-license]
 
-This playbook installs and configures most of the software I use on my Windows 11 machine for software development.
+This playbook installs and configures most of the software I use on my Windows 11 machine for gaming.
 
 ## Contents
 

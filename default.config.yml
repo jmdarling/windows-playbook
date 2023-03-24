@@ -5,6 +5,7 @@ custom_hostname: windows-ansible
 configure_start_menu: true
 configure_taskbar: true
 disable_mouse_acceleration: true
+enable_dark_mode: true
 remove_desktop_icons: false
 
 install_windows_updates: true
@@ -31,30 +32,19 @@ change_power_plan: true
 power_plan: "high_performance"
 
 choco_installed_packages:
-  # installs 2019.2.2.20191 version of the adobe reader
-  - name: adobereader
-    version: "2022.002.20191"
-  # installs latest version of the Firefox while ignoring the package checksum
-  - name: Firefox
-    state: latest
-    choco_args: --ignorechecksum
-  # installs awscli, but won't update it
-  - awscli
-  - Firefox
-  - git
-  - golang
-  - jre8
-  - kubernetes-cli
-  - microsoft-windows-terminal
-  - peazip
-  - powertoys
-  - python3
-  - sharex
-  - telegram
-  - terraform
-  - vlc
+  - 7zip
+  - brave
+  - discord
+  - geforce-experience
+  - icue
+  - steam
   - vscode
-  - zoom
+
+winget_packages:
+  - name: AgileBits.1Password
+    source: winget
+  - name: CiderCollective.Cider
+    source: winget
 
 # List of features: "Get-WindowsOptionalFeature -Online"
 install_windows_features: false
