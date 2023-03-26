@@ -20,6 +20,10 @@
       when: install_windows_updates
       tags: ["updates"]
 
+    - import_tasks: tasks/network_discovery.yml
+      when: enable_network_discovery
+      tags: ["network_discovery"]
+
     - import_tasks: tasks/debloat.yml
       when: remove_bloatware
       tags: ["debloat"]

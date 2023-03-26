@@ -6,6 +6,7 @@ configure_start_menu: true
 configure_taskbar: true
 disable_mouse_acceleration: true
 enable_dark_mode: true
+enable_network_discovery: true
 remove_desktop_icons: false
 
 install_windows_updates: true
