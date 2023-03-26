@@ -1,8 +1,7 @@
 ---
 - name: Enable Dark Mode.
   ansible.windows.win_regedit:
-    path: >
-      HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize
+    path: HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize
     name: AppsUseLightTheme
     data: 0
     type: dword

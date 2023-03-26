@@ -29,9 +29,11 @@
       tags: ["debloat"]
 
     - import_tasks: tasks/chocolatey.yml
+      when: install_packages
       tags: ["choco"]
 
     - import_tasks: tasks/winget.yml
+      when: install_packages
       tags: ["winget"]
 
     - import_tasks: tasks/windows_features.yml
